@@ -1,0 +1,41 @@
+<html>
+    <head>
+    	<title>INST377 - login page</title>
+        <style>
+            body {
+                background-color: tan;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            input {
+            background-color: white;
+            color: black;
+            }
+            .myDiv {
+                font-size: 2pc;
+                margin-top: 20px;
+            }
+            #submitButton {
+                background-color: black;
+                color: red;
+            }
+            #submitButton:hover {
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+   
+    <body>
+        <h1>INST377 Login Page</h1>
+        <div class="myDiv"> 
+            <form name="LoginForm" method="get" action="lab2_loginsuccess.html">
+            <label for="name">UserName:</label>
+            <input type="text" placeholder="Input your username" required><br>
+     
+            <label for="password">Password:</label>
+            <input type="text" placeholder="Input your password" required><br>
+        </div>
+            <input type="submit" id="submitButton">
+        <hr>
+        </form>
+    </body>
+</html>
